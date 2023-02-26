@@ -5,7 +5,7 @@
 a {
     text-decoration: none;
 }
-
+/* ----------------- Header layout & style -------------*/
 header{
     display: flex;
     justify-content: left;
@@ -17,8 +17,6 @@ header{
     column-gap: 165px;
 } 
 
-/* ----------------- Header layout -------------*/
-
 .navbar{
     padding: 0px;
     list-style-type: none;
@@ -28,20 +26,17 @@ header{
     justify-content: space-between;
 }
 
-header 	a {
+ul [href=nav]{
     color: #EEEEEE;
     font-family: 'Source Sans Pro';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
-color: #FFFFFF;
 }
 
-.ProTitle { 
+p [href= nav]{ 
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
@@ -50,11 +45,8 @@ color: #FFFFFF;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
-
-
-
+/* ----------------- End Header layout & style -------------*/
 
 .first-part{
     background-image: url("lines.jpg");
@@ -170,19 +162,37 @@ div#hero-block h2 {
     color: #666666;
 }
 
-#main p{
-    height: 194px;
-    width: 983px;
-    margin-top: 48px;
+#main .stp{
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    /* or 138% */
-    text-align:center;
-    color: #000000;
+    color: #666666;
+    width: 408px;
+    height: 172px;
+
+}#main .snp{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    width: 416px;
+    height: 172px;
 }
+
+.three{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    height: 172px;
+    width: 907px;
+}
+
+
+
 
 #prefooter{
     display: flex;
