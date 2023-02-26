@@ -240,39 +240,20 @@ div#hero-block h2 {
 
 #footer {
     width: 1200px;
-    height: 170px;
+    height: 199px;
     background: #464547;
 }
 
-.footer-logo{
-    margin-top: 19px;
+.footer-grid{
     display: flex;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 16px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    position: absolute;
-    left: 145px;
-    top: 2185px;
+    width: 1160px;
+    height: 160px;
+    padding: 39px 20px 0px 20px;
 }
 
-.footer-logo p{
-    margin-left: 16px;
-    color: #FFFFFF
+.item1-footer , .item2-footer , .item3-footer{
+    color: #EEEEEE;
+    flex: 1 1 auto
 }
 
-.footertext {
-    position: absolute;
-    left: 140px;
-    top: 2238px;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(255, 255, 255, 0.4);
-}
 
